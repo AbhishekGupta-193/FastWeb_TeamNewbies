@@ -3,6 +3,7 @@
 <head>
     <title>Webpage Design</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
 
@@ -23,7 +24,7 @@
             </div>
 
             <div class="skip">
-                <a href="#"> <button class="btn">Skip</button></a> 
+                <a href="#"> <button id="btn">Skip</button></a> 
             </div>
 
         </div> 
@@ -35,30 +36,51 @@
                 <br> a quae totam ipsa illum minus laudantium?</p>
 
                 <button class="cn"><a href="#">JOIN US</a></button>
-                 
-                <div class="form">
-                    <h2>Login Here</h2>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <input type="password" name="" placeholder="Enter Password Here">
-                    <button class="btnn"><a href="#">Login</a></button>
+            </div>
 
-                    <p class="link">Don't have an account<br>
-                    <a href="#">Sign up </a> here</a></p>
-                    <p class="liw">Log in with</p>
 
-                    <div class="icons">
-                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+
+                <div class="wrapper">
+                    <h2>Log In</h2>
+                    <div id="error_message">
+                       
                     </div>
+                    <form action="" id="myform" onsubmit = "return validate();">
+                      <div class="input_field">
+                          <input type="text" placeholder="FIRST NAME" id="firstname">
+                      </div>
+                      <div class="input_field">
+                          <input type="text" placeholder="LAST NAME" id="lastname">
+                      </div>
+                      <div class="input_field">
+                          <input type="text" placeholder="PHONE NO" id="phone">
+                      </div>
+                      <div class="input_field">
+                          <input type="text" placeholder="EMAIL" id="email">
+                      </div>
+                      
+                      <div class="btn">
+                          <input type="submit">
+                      </div>
+                    </form>
+                  </div>
+               
+                
+        
+    
+    
+    <script>
+        let my_url1 = "../MainPage/index2.html";
+        document.getElementById("btn").onclick = 
+        function(){
+            window.location.replace(my_url1);
+        }
 
-                </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        let my_url2 = "../PLAYLIST/index3.html";
+        document.getElementById("playlist").onclick = 
+        function(){
+            window.location.replace(my_url2);
+        }
+    </script>
 </body>
 </html>

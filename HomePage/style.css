@@ -72,7 +72,7 @@ ul li a:hover{
    
 }
 
-.btn{
+#btn{
     width: 100px;
     height: 40px;
     background: #ff7200;
@@ -87,11 +87,11 @@ ul li a:hover{
     margin-left: 450px;
    
 }
-.btn:hover{
+#btn:hover{
     color: #000;
 }
 
-.btn:focus{
+#btn:focus{
     outline: none;
 }
 
@@ -155,19 +155,19 @@ ul li a:hover{
     font-size: 65px
 }
 
-.form{
+#form{
     width: 250px;
-    height: 380px;
+    height: 420px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
-    top: -20px;
+    top: -50px;
     left: 870px;               
     transform: translate(0%,-5%);
     border-radius: 10px;
     padding: 25px;
 }
 
-.form h2{
+#form h2{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
@@ -179,7 +179,7 @@ ul li a:hover{
     padding: 8px;
 }
 
-.form input{
+#form input{
     width: 240px;
     height: 35px;
     background: transparent;
@@ -194,7 +194,7 @@ ul li a:hover{
     font-family: sans-serif;
 }
 
-.form input:focus{
+#form input:focus{
     outline: none;
 }
 
@@ -203,7 +203,7 @@ ul li a:hover{
     font-family: Arial;
 }
 
-.btnn{
+#btnn{
     width: 240px;
     height: 40px;
     background: #ff7200;
@@ -215,25 +215,26 @@ ul li a:hover{
     color: #fff;
     transition: 0.4s ease;
 }
-.btnn:hover{
+#btnn:hover{
     background: #fff;
     color: #ff7200;
 }
-.btnn a{
+#btnn a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
 }
-.form .link{
+#form .link{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
 }
-.form .link a{
+#form .link a{
     text-decoration: none;
     color: #ff7200;
 }
+
 .liw{
     padding-top: 15px;
     padding-bottom: 10px;
@@ -253,3 +254,89 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: #ff7200;
 }
+.Wrapper #error_message{
+    margin-top:20px;
+  padding :15px;
+    background: red;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    position: absolute;
+    top: 58%;
+    left: 82%;
+    transform: translate(-50%,-50%);
+    max-width: 300px;
+    max-height: 300px;
+    width: 80%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: #ff7200;
+    padding-top: 50px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+
+  }
+  
+  .wrapper h2{
+      font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:white;
+  }
+  
+  
+  
+  
+  
+  .wrapper .btn input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background:#ff7200;
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    
+  }
+  
+  #error_message{
+    background: #fe8b8e;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+
+  .wrapper .input_field input[type="text"]{
+      color : black;
+      margin: auto;
+  }
+  .input_field{
+      margin: auto;
+      text-align: center;
+      margin:5px;
+      background : #ff7200;
+      
+  }
